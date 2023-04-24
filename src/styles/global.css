@@ -1,0 +1,21 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111111;
+  color: aliceblue;
+}
+
+:root{
+  --white: #FFFFFF;
+  --orange: #F69605;
+  --orange-hover: #ca8010;
+  --gray-text: #353535;
+  --black-60: rgba(0, 0, 0, 0.6);
+}

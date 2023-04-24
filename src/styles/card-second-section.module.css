@@ -1,0 +1,31 @@
+.container{
+    width: 16rem;
+    height: 8rem;
+    border-radius: 25px;
+    box-shadow: 3px 5px 31px 0px rgba(0,0,0,0.25);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.container h4{
+    color: var(--gray-text);
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.container img{
+    padding: 15px 0 0 0;
+}
+
+.container p{
+    padding: 4px 0 15px 0;
+    color: var(--black-60);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container:hover{
+    box-shadow: 3px 5px 31px 0px var(--orange);
+}

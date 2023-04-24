@@ -1,0 +1,18 @@
+.orangeBtn{
+    background-color: var(--orange);
+    border-radius: 25px;
+    border-color: transparent;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    width: 10rem;
+    padding: 10px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.orangeBtn:hover{
+    background-color: var(--orange-hover);
+}

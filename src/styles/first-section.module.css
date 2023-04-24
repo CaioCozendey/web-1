@@ -1,0 +1,41 @@
+.img {
+    background: url(../../public/images/background-food.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center right;
+}
+
+.container{
+    height: 90vh;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1500px;
+    padding-top: 15rem;
+    margin: auto auto;
+    justify-content: center;
+}
+
+.container h1{
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-size: 5rem;
+}
+
+.container h1 span{
+    color: var(--orange);
+}
+
+.container p{
+    width: 18vw;
+    padding: 2rem 0 2rem 0;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.container div{
+    margin: 1vw;
+}
+
+.btn{
+    margin-left: -10rem;
+}

@@ -1,0 +1,68 @@
+.containerCards1 {
+    max-width: 100%;
+    height: 20rem;
+    background-color: var(--white);
+    padding: 10rem 0 10rem 0;
+}
+
+.containerCards2 {
+    max-width: 1500px;
+    max-height: 20rem;
+    background-color: var(--white);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(-50%);
+}
+
+.containerCards2 a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    height: 36.75rem;
+    background-color: var(--white);
+    position: relative;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.containerImg {
+    width: 50%;
+}
+
+.containerImg img{
+    width: 60vw;
+    height: 20vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.container h1 {
+    color: var(--orange);
+    margin: 0 0 2rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.container h2 {
+    color: var(--gray-text);
+    margin: 0 0 2rem 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 39px;
+}
+
+.container p{
+    color: var(--gray-text);
+    margin: 0 0 2rem 0;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+.container2{
+    width: 41rem;
+    margin: auto;
+}
